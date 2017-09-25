@@ -1,13 +1,47 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/newTest/newTest",
-    "pages/end/end"
+    "pages/logs/logs",
+    "pages/level/level",
+    "pages/test/test",
+    "pages/queryresult/queryresult"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#4ED2B8",
-    "navigationBarTitleText": "数学计算大挑战",
-    "navigationBarTextStyle":"black"
-  }
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#576B95",
+    "navigationBarBackgroundColor": "#09bb07",
+    "navigationBarTitleText": "儿童加减法",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "ffff00",
+    "selectedColor": "#ed64340",
+    "backgroundColor": "#666666",
+    "backgroundTextStyle": "dark",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "游戏"
+      },
+      {
+        "pagePath": "pages/queryresult/queryresult",
+        "text": "成绩查询",
+        "selectedColor": "#ed64340"
+      },
+      {
+        "pagePath": "pages/level/level",
+        "text": "难度设置"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "登录"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }
