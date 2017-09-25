@@ -1,0 +1,16 @@
+/* pages/level/level.wxss */
+
+
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blue;
+}
+
+
+
+
+.picker-view {
+  width: 450rpx;
+  height: 88rpx;
+
+}

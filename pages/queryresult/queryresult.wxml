@@ -1,0 +1,4 @@
+<!--pages/queryresult/queryresult.wxml-->
+<view wx:if="{{isPlus}}" class="game-text">
+        <text class="font-number">{{level}} ------ {{timetype}} ------{{addorsub}}</text>
+    </view>
