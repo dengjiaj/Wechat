@@ -22,20 +22,21 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "游戏"
+        "text": "游戏",
+        "iconPath" : "resource/start1.png",
+        "selectedIconPath" : "resource/start2.png"
       },
       {
         "pagePath": "pages/queryresult/queryresult",
         "text": "成绩查询",
-        "selectedColor": "#ed64340"
+        "iconPath": "resource/chaxun1.png",
+        "selectedIconPath": "resource/chaxun2.png"
       },
       {
         "pagePath": "pages/level/level",
-        "text": "难度设置"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "text": "登录"
+        "text": "难度设置",
+        "iconPath": "resource/setting1.png",
+        "selectedIconPath": "resource/setting2.png"
       }
     ]
   },

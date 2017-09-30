@@ -1,7 +1,12 @@
 <!--index.wxml-->
 <view class="container">
 
-    <view  wx:for="{{buttonArray}}" hover="{{is}}">
+
+
+
+
+   
+    <view  wx:for="{{buttonArray}}" hover="{{is}}" wx:key="key">
       <button type="{{item.type}}" id="{{item.id}}" class="button" bindtap="{{item.even}}">{{item.text}}
       </button>
     </view>
